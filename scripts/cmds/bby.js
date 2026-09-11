@@ -1,4 +1,4 @@
-            ];
+
 
             if (!text && attachments.length === 0) {
                 const babyMessage = randomMessage[Math.floor(Math.random() * randomMessage.length)];
@@ -31,5 +31,3 @@
         }
     } catch (err) {
         console.error(err);
-    }
-};
